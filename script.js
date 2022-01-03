@@ -1,0 +1,16 @@
+let computerGuess
+
+function init(){
+    computerGuess = Math.floor(Math.random() * 100 + 1); // generates a number between 1-100
+    
+    document.getElementById("newGameButton").style.display = "none";
+    document.getElementById("gameArea").style.display = "none";
+}
+
+
+function startGameView(){
+        document.getElementById("welcomeScreen").style.display = "none";
+        document.getElementById("gameArea").style.display = "block";
+
+
+}

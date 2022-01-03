@@ -9,17 +9,21 @@ html {
 }
 
 body {
-  background: radial-gradient(#343e63, #2a3352);
+  background: url(./images/numbers.jpg)  no-repeat center center fixed; 
+  background-size: cover;
 }
 
 .maincontainer {
     width: 60%;
     margin: 3rem auto;
     padding: 1rem 0;
-    background: #f8f1e9;
-    border: 2px solid orange;
+    background: rgba(248,241,233,0.9);
+    border: 6px solid #fe5542;
     border-radius: 1.5rem;
     text-align: center;
+    -webkit-box-shadow: 2px 2px 15px 5px #000000; 
+    box-shadow: 2px 2px 15px 5px #000000;
+
 }
 
 
@@ -46,12 +50,14 @@ button {
   border: none;
   padding: 8px 10px;
   border-radius: 6px;
-  background: #83e1d0;
+  background: #519259;
+  color: white;
   margin: 1rem;
 }
 
 button:last-child {
-  background: orange;
+  background: #fe5542;
+  color: white;
 
 }
 
