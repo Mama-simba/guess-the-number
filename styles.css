@@ -5,14 +5,86 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'Play', sans-serif;
 }
 
+body {
+  background: radial-gradient(#343e63, #2a3352);
+}
 
 .maincontainer {
-    width: 50%;
+    width: 60%;
     margin: 3rem auto;
     padding: 1rem 0;
-    border: 1px solid black;
-    border-radius: 10px;
+    background: #f8f1e9;
+    border: 2px solid orange;
+    border-radius: 1.5rem;
     text-align: center;
 }
+
+
+/* WELCOME SECTION */
+
+.welcomesection {
+  padding-top: 2rem;
+}
+
+h2 {
+  padding: 0 3rem;
+}
+
+.welcomesection p {
+  padding-top: 2rem;
+}
+
+.buttonscontainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #83e1d0;
+  margin: 1rem;
+}
+
+button:last-child {
+  background: orange;
+
+}
+
+/* GAME SECTION */
+
+input {
+  margin: 0.5rem;
+  border: 1px solid lightgray;
+  background: transparent;
+  padding: 4px 0;
+  text-align: center;
+}
+
+#rangeOutput {
+  font-size: 1.6rem;
+}
+
+#range {
+  display: flex;
+  background: #83e1d0;
+  height: 50px;
+  padding: 0;
+  margin: 0 1rem 4rem 1rem;
+}
+
+.stats {
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
