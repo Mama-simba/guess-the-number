@@ -18,12 +18,11 @@ body {
     margin: 3rem auto;
     padding: 1rem 0;
     background: rgba(248,241,233,0.9);
-    border: 6px solid #fe5542;
+    border: 0.5rem solid #fe5542;
     border-radius: 1.5rem;
     text-align: center;
     -webkit-box-shadow: 2px 2px 15px 5px #000000; 
     box-shadow: 2px 2px 15px 5px #000000;
-
 }
 
 
