@@ -124,3 +124,14 @@ input {
   padding: 0.5rem 1rem;
 }
 
+
+
+@media (max-width: 800px) {
+  .maincontainer {
+    width: 80%;
+  }
+  h2 {
+  font-size: 20px;
+  padding: 0 1rem;
+}
+}
